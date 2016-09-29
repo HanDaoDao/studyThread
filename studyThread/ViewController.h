@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UIImageView *iv;
+@property (strong, nonatomic) IBOutlet UIButton *cancel;
+- (IBAction)showImage:(id)sender;
 
 @end
 
